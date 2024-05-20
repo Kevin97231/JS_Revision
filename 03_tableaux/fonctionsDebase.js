@@ -59,10 +59,3 @@ numbers.forEach((currentValue, index, arr) => {
 numbers.forEach((currentValue) => console.log(currentValue))
 
 numbers.forEach( () => console.log('forEach sans paramètre !'))
-
-// Exercice : Faire une fonction qui 
-//  - prend en paramètre un tableau
-//  - retourne un tableau contenant les carrés des valeurs du tableau passé en paramètre
-
-// ==> si j'ai [1,2,3,4], la fonction doit retourner le tableau suivant: [1,4,9,16]
-
